@@ -1,7 +1,7 @@
 import './App.css';
+import {  BrowserRouter as Router,Route } from "react-router-dom"
 import PreNavbar from './components/PreNavbar';
 import Navbar from "./components/Navbar.js"
-import {  BrowserRouter as Router,Route } from "react-router-dom"
 import Slider from "./components/Slider.js"
 import data from "./data/data.json"
 import Offers from "./components/Offers.js"
@@ -15,11 +15,15 @@ import Banner from "./components/Banner.js"
 import Footer from "./components/Footer.js"
 import NavOptios from "./components/NavOptios.js"
 
-
-
+// 3.App is component - capital letter 
 function App() {
 
+// return single tag only 
   return (
+
+  // {} to use js 
+
+  
   <Router>
        <PreNavbar/>
        <Navbar />
@@ -73,4 +77,6 @@ function App() {
   );
 }
 
-export default App;
+// import by any name, only one can be default export
+export default App; 
+// if normal export then use {-,-} can send multiple but name must be same

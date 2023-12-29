@@ -14,5 +14,5 @@ const StarProduct = ({starProduct}) => {
       </div>
     )
 }
-
-export default StarProduct
+ 
+export default StarProduct;

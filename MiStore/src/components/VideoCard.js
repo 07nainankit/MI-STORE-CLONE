@@ -1,5 +1,5 @@
-import React from 'react'
-import "../styles/videoCard.css"
+import React from 'react';
+import "../styles/videoCard.css";
 
 
 
@@ -15,4 +15,4 @@ const VideoCard = ({image,name,index}) => {
     )
 }
 
-export default VideoCard
+export default VideoCard;

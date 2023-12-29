@@ -1,0 +1,11 @@
+{
+  "name": "clear",
+  "version": "1.0.0",
+  "description": "In this project i get my hands on React JS by implementing it in cloning MI STORE which helped me to get better understanding about feature's of react.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

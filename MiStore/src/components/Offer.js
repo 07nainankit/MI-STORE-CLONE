@@ -5,4 +5,4 @@ const Offer = ({src,link,index}) => {
     
 }
 
-export default Offer
+export default Offer;
